@@ -9,6 +9,7 @@ A new small, working machine learning project every day. Each project lives in i
 <!-- PROJECT_INDEX_START -->
 | Date | Project | Area |
 | --- | --- | --- |
+| 2026-11-02 | [Adaptive conformal intervals](2026-11-02-conformal-uncertainty/) | AI / ML |
 <!-- PROJECT_INDEX_END -->
 
 ## Conventions
