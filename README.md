@@ -11,6 +11,7 @@ A new small, working machine learning project every day. Each project lives in i
 | --- | --- | --- |
 | 2026-11-02 | [Adaptive conformal intervals](2026-11-02-conformal-uncertainty/) | AI / ML |
 | 2026-11-03 | [Channel coding lab: Viterbi vs LDPC](2026-11-03-channel-coding-lab/) | Communications and control |
+| 2026-11-04 | [Audio denoising lab: spectral filters, adaptive cancellation, noisy classification](2026-11-04-audio-denoise-lab/) | Audio and signal processing |
 <!-- PROJECT_INDEX_END -->
 
 ## Conventions
