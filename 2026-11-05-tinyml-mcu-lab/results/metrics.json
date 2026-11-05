@@ -1,0 +1,913 @@
+{
+  "float_acc": {
+    "mean": 0.975925925925926,
+    "std": 0.0
+  },
+  "weight_bits": {
+    "float": {
+      "mean": 0.975925925925926,
+      "std": 0.0
+    },
+    "bits": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "per_tensor": [
+      {
+        "mean": 0.24567901234567902,
+        "std": 0.09152886928457785
+      },
+      {
+        "mean": 0.9098765432098767,
+        "std": 0.013210453431501694
+      },
+      {
+        "mean": 0.9777777777777779,
+        "std": 0.003024061410843434
+      },
+      {
+        "mean": 0.9746913580246913,
+        "std": 0.0031475429096251913
+      },
+      {
+        "mean": 0.9783950617283951,
+        "std": 0.0008729713347982212
+      },
+      {
+        "mean": 0.9765432098765432,
+        "std": 0.0008729713347981688
+      }
+    ],
+    "per_tensor_sqnr_db": [
+      1.012004530121682,
+      8.667241766572777,
+      17.08975717156783,
+      23.267082813034435,
+      28.085975490254754,
+      36.383066208896544
+    ],
+    "per_channel": [
+      {
+        "mean": 0.6277777777777778,
+        "std": 0.11691625272344146
+      },
+      {
+        "mean": 0.9641975308641976,
+        "std": 0.0031475429096251913
+      },
+      {
+        "mean": 0.9734567901234569,
+        "std": 0.0017459426695964424
+      },
+      {
+        "mean": 0.9765432098765432,
+        "std": 0.0008729713347981688
+      },
+      {
+        "mean": 0.9746913580246913,
+        "std": 0.0008729713347982211
+      },
+      {
+        "mean": 0.9771604938271605,
+        "std": 0.0008729713347981688
+      }
+    ],
+    "per_channel_sqnr_db": [
+      3.2072165493746816,
+      12.904491404225505,
+      19.08368166708083,
+      25.471890420902422,
+      30.984770325184403,
+      36.754908276454344
+    ]
+  },
+  "act_bits": {
+    "abits": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "pcts": [
+      99.0,
+      99.9,
+      100.0
+    ],
+    "acc": {
+      "99.0": [
+        0.9117283950617284,
+        0.9660493827160493,
+        0.9771604938271605,
+        0.9771604938271605,
+        0.975925925925926,
+        0.975925925925926
+      ],
+      "99.9": [
+        0.8734567901234568,
+        0.9611111111111111,
+        0.9740740740740742,
+        0.9746913580246913,
+        0.9777777777777779,
+        0.975925925925926
+      ],
+      "100.0": [
+        0.8537037037037037,
+        0.95679012345679,
+        0.974074074074074,
+        0.9790123456790124,
+        0.9771604938271605,
+        0.975925925925926
+      ]
+    },
+    "accumulator_bits_int8": 20
+  },
+  "fixed_point": {
+    "w_fracs": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "a_fracs": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "w_bits": 8,
+    "a_bits": 16,
+    "acc": [
+      [
+        0.9425925925925925,
+        0.9407407407407408,
+        0.9388888888888889,
+        0.9388888888888889,
+        0.9388888888888889,
+        0.9444444444444444,
+        0.7537037037037037
+      ],
+      [
+        0.9666666666666667,
+        0.9740740740740741,
+        0.9740740740740741,
+        0.9740740740740741,
+        0.9740740740740741,
+        0.9703703703703703,
+        0.8611111111111112
+      ],
+      [
+        0.9740740740740741,
+        0.975925925925926,
+        0.975925925925926,
+        0.975925925925926,
+        0.975925925925926,
+        0.9777777777777777,
+        0.9203703703703704
+      ],
+      [
+        0.9796296296296296,
+        0.9796296296296296,
+        0.9814814814814815,
+        0.9796296296296296,
+        0.9814814814814815,
+        0.9833333333333333,
+        0.8925925925925926
+      ],
+      [
+        0.975925925925926,
+        0.9777777777777777,
+        0.9777777777777777,
+        0.9777777777777777,
+        0.9777777777777777,
+        0.9777777777777777,
+        0.8981481481481481
+      ],
+      [
+        0.975925925925926,
+        0.975925925925926,
+        0.975925925925926,
+        0.975925925925926,
+        0.975925925925926,
+        0.9777777777777777,
+        0.9092592592592592
+      ]
+    ],
+    "sat_frac": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.2704568159113613e-05,
+        0.032694578149123604,
+        0.18371401325946782
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.03126419035509945,
+        0.17254336572518392
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.030458178185450914,
+        0.17131731904459177
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.030991735537190084,
+        0.17324720733811644
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.031400417764054125,
+        0.17326991190627555
+      ],
+      [
+        6.811370447734085e-05,
+        6.811370447734085e-05,
+        6.811370447734085e-05,
+        6.811370447734085e-05,
+        6.811370447734085e-05,
+        0.030242484787939332,
+        0.17289528653165018
+      ]
+    ],
+    "max_abs_weight": 1.499817355315451,
+    "max_abs_activation": 28.91017684435259,
+    "float_acc": 0.975925925925926
+  },
+  "pruning": {
+    "wbits": 8,
+    "unstructured": [
+      {
+        "scope": "global",
+        "finetune": false,
+        "sparsity": 0.0,
+        "actual_sparsity": 0.0,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 5738,
+        "macs": 4928,
+        "sparse_macs": 0
+      },
+      {
+        "scope": "global",
+        "finetune": false,
+        "sparsity": 0.5,
+        "actual_sparsity": 0.5,
+        "acc": 0.9796296296296296,
+        "flash_bytes": 5110,
+        "macs": 3178,
+        "sparse_macs": 1322
+      },
+      {
+        "scope": "global",
+        "finetune": false,
+        "sparsity": 0.7,
+        "actual_sparsity": 0.6998782467532467,
+        "acc": 0.937037037037037,
+        "flash_bytes": 3562,
+        "macs": 1621,
+        "sparse_macs": 1301
+      },
+      {
+        "scope": "global",
+        "finetune": false,
+        "sparsity": 0.8,
+        "actual_sparsity": 0.7999188311688312,
+        "acc": 0.737037037037037,
+        "flash_bytes": 2744,
+        "macs": 986,
+        "sparse_macs": 986
+      },
+      {
+        "scope": "global",
+        "finetune": false,
+        "sparsity": 0.9,
+        "actual_sparsity": 0.8999594155844156,
+        "acc": 0.4222222222222222,
+        "flash_bytes": 1918,
+        "macs": 493,
+        "sparse_macs": 493
+      },
+      {
+        "scope": "global",
+        "finetune": false,
+        "sparsity": 0.95,
+        "actual_sparsity": 0.9498782467532467,
+        "acc": 0.26851851851851855,
+        "flash_bytes": 1507,
+        "macs": 247,
+        "sparse_macs": 247
+      },
+      {
+        "scope": "global",
+        "finetune": true,
+        "sparsity": 0.0,
+        "actual_sparsity": 0.0,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 5738,
+        "macs": 4928,
+        "sparse_macs": 0
+      },
+      {
+        "scope": "global",
+        "finetune": true,
+        "sparsity": 0.5,
+        "actual_sparsity": 0.5,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 5108,
+        "macs": 3177,
+        "sparse_macs": 1321
+      },
+      {
+        "scope": "global",
+        "finetune": true,
+        "sparsity": 0.7,
+        "actual_sparsity": 0.6998782467532467,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 3562,
+        "macs": 1621,
+        "sparse_macs": 1301
+      },
+      {
+        "scope": "global",
+        "finetune": true,
+        "sparsity": 0.8,
+        "actual_sparsity": 0.7999188311688312,
+        "acc": 0.9685185185185186,
+        "flash_bytes": 2743,
+        "macs": 985,
+        "sparse_macs": 985
+      },
+      {
+        "scope": "global",
+        "finetune": true,
+        "sparsity": 0.9,
+        "actual_sparsity": 0.8999594155844156,
+        "acc": 0.9425925925925925,
+        "flash_bytes": 1918,
+        "macs": 493,
+        "sparse_macs": 493
+      },
+      {
+        "scope": "global",
+        "finetune": true,
+        "sparsity": 0.95,
+        "actual_sparsity": 0.9498782467532467,
+        "acc": 0.7277777777777777,
+        "flash_bytes": 1507,
+        "macs": 247,
+        "sparse_macs": 247
+      },
+      {
+        "scope": "layer",
+        "finetune": false,
+        "sparsity": 0.0,
+        "actual_sparsity": 0.0,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 5738,
+        "macs": 4928,
+        "sparse_macs": 0
+      },
+      {
+        "scope": "layer",
+        "finetune": false,
+        "sparsity": 0.5,
+        "actual_sparsity": 0.5,
+        "acc": 0.9685185185185186,
+        "flash_bytes": 5280,
+        "macs": 2464,
+        "sparse_macs": 2464
+      },
+      {
+        "scope": "layer",
+        "finetune": false,
+        "sparsity": 0.7,
+        "actual_sparsity": 0.6998782467532467,
+        "acc": 0.8314814814814815,
+        "flash_bytes": 3612,
+        "macs": 1479,
+        "sparse_macs": 1479
+      },
+      {
+        "scope": "layer",
+        "finetune": false,
+        "sparsity": 0.8,
+        "actual_sparsity": 0.7997159090909091,
+        "acc": 0.6722222222222223,
+        "flash_bytes": 2778,
+        "macs": 987,
+        "sparse_macs": 987
+      },
+      {
+        "scope": "layer",
+        "finetune": false,
+        "sparsity": 0.9,
+        "actual_sparsity": 0.8997564935064936,
+        "acc": 0.2462962962962963,
+        "flash_bytes": 1942,
+        "macs": 494,
+        "sparse_macs": 494
+      },
+      {
+        "scope": "layer",
+        "finetune": false,
+        "sparsity": 0.95,
+        "actual_sparsity": 0.9498782467532467,
+        "acc": 0.1962962962962963,
+        "flash_bytes": 1524,
+        "macs": 247,
+        "sparse_macs": 247
+      },
+      {
+        "scope": "layer",
+        "finetune": true,
+        "sparsity": 0.0,
+        "actual_sparsity": 0.0,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 5738,
+        "macs": 4928,
+        "sparse_macs": 0
+      },
+      {
+        "scope": "layer",
+        "finetune": true,
+        "sparsity": 0.5,
+        "actual_sparsity": 0.5,
+        "acc": 0.975925925925926,
+        "flash_bytes": 5273,
+        "macs": 2460,
+        "sparse_macs": 2460
+      },
+      {
+        "scope": "layer",
+        "finetune": true,
+        "sparsity": 0.7,
+        "actual_sparsity": 0.6998782467532467,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 3612,
+        "macs": 1479,
+        "sparse_macs": 1479
+      },
+      {
+        "scope": "layer",
+        "finetune": true,
+        "sparsity": 0.8,
+        "actual_sparsity": 0.7997159090909091,
+        "acc": 0.9777777777777777,
+        "flash_bytes": 2778,
+        "macs": 987,
+        "sparse_macs": 987
+      },
+      {
+        "scope": "layer",
+        "finetune": true,
+        "sparsity": 0.9,
+        "actual_sparsity": 0.8997564935064936,
+        "acc": 0.9444444444444444,
+        "flash_bytes": 1942,
+        "macs": 494,
+        "sparse_macs": 494
+      },
+      {
+        "scope": "layer",
+        "finetune": true,
+        "sparsity": 0.95,
+        "actual_sparsity": 0.9498782467532467,
+        "acc": 0.5018518518518519,
+        "flash_bytes": 1524,
+        "macs": 247,
+        "sparse_macs": 247
+      }
+    ],
+    "structured": [
+      {
+        "keep_frac": 1.0,
+        "sizes": [
+          64,
+          48,
+          32,
+          10
+        ],
+        "acc": 0.9777777777777777,
+        "flash_bytes": 5738,
+        "macs": 4928
+      },
+      {
+        "keep_frac": 0.75,
+        "sizes": [
+          64,
+          36,
+          24,
+          10
+        ],
+        "acc": 0.9796296296296296,
+        "flash_bytes": 4038,
+        "macs": 3408
+      },
+      {
+        "keep_frac": 0.5,
+        "sizes": [
+          64,
+          24,
+          16,
+          10
+        ],
+        "acc": 0.975925925925926,
+        "flash_bytes": 2530,
+        "macs": 2080
+      },
+      {
+        "keep_frac": 0.35,
+        "sizes": [
+          64,
+          17,
+          11,
+          10
+        ],
+        "acc": 0.9555555555555556,
+        "flash_bytes": 1727,
+        "macs": 1385
+      },
+      {
+        "keep_frac": 0.25,
+        "sizes": [
+          64,
+          12,
+          8,
+          10
+        ],
+        "acc": 0.9148148148148149,
+        "flash_bytes": 1214,
+        "macs": 944
+      }
+    ]
+  },
+  "memplan": {
+    "graphs": [
+      {
+        "name": "mlp",
+        "n_tensors": 4,
+        "macs": 4928,
+        "lower_bound": 112,
+        "planners": {
+          "naive": 156,
+          "greedy_by_start": 112,
+          "greedy_by_size": 112,
+          "random_search": 112
+        },
+        "mcu_fit": {
+          "AVR-class 8-bit": true,
+          "Cortex-M0+": true,
+          "Cortex-M4F": true,
+          "Cortex-M7": true
+        },
+        "mcu_fit_naive": {
+          "AVR-class 8-bit": true,
+          "Cortex-M0+": true,
+          "Cortex-M4F": true,
+          "Cortex-M7": true
+        }
+      },
+      {
+        "name": "tiny_resnet",
+        "n_tensors": 15,
+        "macs": 4366656,
+        "lower_bound": 24576,
+        "planners": {
+          "naive": 60460,
+          "greedy_by_start": 24576,
+          "greedy_by_size": 24576,
+          "random_search": 24576
+        },
+        "mcu_fit": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": true,
+          "Cortex-M4F": true,
+          "Cortex-M7": true
+        },
+        "mcu_fit_naive": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": false,
+          "Cortex-M4F": true,
+          "Cortex-M7": true
+        }
+      },
+      {
+        "name": "unet",
+        "n_tensors": 15,
+        "macs": 4902400,
+        "lower_bound": 24576,
+        "planners": {
+          "naive": 49664,
+          "greedy_by_start": 24576,
+          "greedy_by_size": 24576,
+          "random_search": 24576
+        },
+        "mcu_fit": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": true,
+          "Cortex-M4F": true,
+          "Cortex-M7": true
+        },
+        "mcu_fit_naive": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": false,
+          "Cortex-M4F": true,
+          "Cortex-M7": true
+        }
+      },
+      {
+        "name": "tiny_resnet_wide",
+        "n_tensors": 15,
+        "macs": 38228608,
+        "lower_bound": 110592,
+        "planners": {
+          "naive": 265036,
+          "greedy_by_start": 110592,
+          "greedy_by_size": 110592,
+          "random_search": 110592
+        },
+        "mcu_fit": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": false,
+          "Cortex-M4F": true,
+          "Cortex-M7": true
+        },
+        "mcu_fit_naive": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": false,
+          "Cortex-M4F": false,
+          "Cortex-M7": true
+        }
+      },
+      {
+        "name": "random_dag",
+        "n_tensors": 41,
+        "macs": 1130979,
+        "lower_bound": 313720,
+        "planners": {
+          "naive": 1170984,
+          "greedy_by_start": 420040,
+          "greedy_by_size": 357124,
+          "random_search": 321004
+        },
+        "mcu_fit": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": false,
+          "Cortex-M4F": false,
+          "Cortex-M7": true
+        },
+        "mcu_fit_naive": {
+          "AVR-class 8-bit": false,
+          "Cortex-M0+": false,
+          "Cortex-M4F": false,
+          "Cortex-M7": false
+        }
+      }
+    ]
+  },
+  "mcu": {
+    "designs": [
+      {
+        "design": "fp32 dense",
+        "acc": 0.975925925925926,
+        "flash_bytes": 20072,
+        "sram_bytes": 960,
+        "macs": 4928,
+        "mcus": {
+          "AVR-class 8-bit": {
+            "latency_ms": 123.2,
+            "energy_uJ": 1848.0,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.612548828125,
+            "sram_util": 0.46875
+          },
+          "Cortex-M0+": {
+            "latency_ms": 6.93,
+            "energy_uJ": 55.44,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.15313720703125,
+            "sram_util": 0.026041666666666668
+          },
+          "Cortex-M4F": {
+            "latency_ms": 0.1848,
+            "energy_uJ": 4.62,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0382843017578125,
+            "sram_util": 0.00732421875
+          },
+          "Cortex-M7": {
+            "latency_ms": 0.014783999999999999,
+            "energy_uJ": 2.66112,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.009571075439453125,
+            "sram_util": 0.0018310546875
+          }
+        }
+      },
+      {
+        "design": "int8 dense",
+        "acc": 0.9777777777777777,
+        "flash_bytes": 5738,
+        "sram_bytes": 624,
+        "macs": 4928,
+        "mcus": {
+          "AVR-class 8-bit": {
+            "latency_ms": 9.285,
+            "energy_uJ": 139.275,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.17510986328125,
+            "sram_util": 0.3046875
+          },
+          "Cortex-M0+": {
+            "latency_ms": 0.55025,
+            "energy_uJ": 4.402,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0437774658203125,
+            "sram_util": 0.016927083333333332
+          },
+          "Cortex-M4F": {
+            "latency_ms": 0.1014,
+            "energy_uJ": 2.535,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.010944366455078125,
+            "sram_util": 0.0047607421875
+          },
+          "Cortex-M7": {
+            "latency_ms": 0.009191999999999999,
+            "energy_uJ": 1.6545599999999998,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0027360916137695312,
+            "sram_util": 0.001190185546875
+          }
+        }
+      },
+      {
+        "design": "int4 dense",
+        "acc": 0.9722222222222222,
+        "flash_bytes": 3274,
+        "sram_bytes": 624,
+        "macs": 4928,
+        "mcus": {
+          "AVR-class 8-bit": {
+            "latency_ms": 9.439,
+            "energy_uJ": 141.585,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.09991455078125,
+            "sram_util": 0.3046875
+          },
+          "Cortex-M0+": {
+            "latency_ms": 0.58875,
+            "energy_uJ": 4.71,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0249786376953125,
+            "sram_util": 0.016927083333333332
+          },
+          "Cortex-M4F": {
+            "latency_ms": 0.1322,
+            "energy_uJ": 3.305,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.006244659423828125,
+            "sram_util": 0.0047607421875
+          },
+          "Cortex-M7": {
+            "latency_ms": 0.015351999999999998,
+            "energy_uJ": 2.7633599999999996,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0015611648559570312,
+            "sram_util": 0.001190185546875
+          }
+        }
+      },
+      {
+        "design": "int8 + 90% sparse",
+        "acc": 0.9425925925925925,
+        "flash_bytes": 1918,
+        "sram_bytes": 624,
+        "macs": 493,
+        "mcus": {
+          "AVR-class 8-bit": {
+            "latency_ms": 1.4315625,
+            "energy_uJ": 21.473437500000003,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.05853271484375,
+            "sram_util": 0.3046875
+          },
+          "Cortex-M0+": {
+            "latency_ms": 0.095984375,
+            "energy_uJ": 0.767875,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0146331787109375,
+            "sram_util": 0.016927083333333332
+          },
+          "Cortex-M4F": {
+            "latency_ms": 0.03365,
+            "energy_uJ": 0.8412499999999999,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.003658294677734375,
+            "sram_util": 0.0047607421875
+          },
+          "Cortex-M7": {
+            "latency_ms": 0.0040185,
+            "energy_uJ": 0.72333,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0009145736694335938,
+            "sram_util": 0.001190185546875
+          }
+        }
+      },
+      {
+        "design": "int8 + 50% neurons",
+        "acc": 0.975925925925926,
+        "flash_bytes": 2530,
+        "sram_bytes": 600,
+        "macs": 2080,
+        "mcus": {
+          "AVR-class 8-bit": {
+            "latency_ms": 3.925,
+            "energy_uJ": 58.875,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.07720947265625,
+            "sram_util": 0.29296875
+          },
+          "Cortex-M0+": {
+            "latency_ms": 0.23375,
+            "energy_uJ": 1.87,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0193023681640625,
+            "sram_util": 0.016276041666666668
+          },
+          "Cortex-M4F": {
+            "latency_ms": 0.044,
+            "energy_uJ": 1.0999999999999999,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.004825592041015625,
+            "sram_util": 0.00457763671875
+          },
+          "Cortex-M7": {
+            "latency_ms": 0.00412,
+            "energy_uJ": 0.7416,
+            "fits_flash": true,
+            "fits_sram": true,
+            "flash_util": 0.0012063980102539062,
+            "sram_util": 0.0011444091796875
+          }
+        }
+      }
+    ],
+    "mcus": [
+      "AVR-class 8-bit",
+      "Cortex-M0+",
+      "Cortex-M4F",
+      "Cortex-M7"
+    ]
+  },
+  "runtime_s": 6.4
+}
