@@ -1,0 +1,8 @@
+{
+  "cases": 48,
+  "exact": 48,
+  "cycle_match": 48,
+  "mac_match": 48,
+  "traffic_match": 48,
+  "all_passed": true
+}
