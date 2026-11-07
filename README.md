@@ -9,15 +9,15 @@ A new small, working machine learning project every day. Each project lives in i
 <!-- PROJECT_INDEX_START -->
 | Date | Project | Area |
 | --- | --- | --- |
-| 2026-11-02 | [Adaptive conformal intervals](2026-11-02-conformal-uncertainty/) | AI / ML |
-| 2026-11-03 | [Channel coding lab: Viterbi vs LDPC](2026-11-03-channel-coding-lab/) | Communications and control |
-| 2026-11-04 | [Audio denoising lab: spectral filters, adaptive cancellation, noisy classification](2026-11-04-audio-denoise-lab/) | Audio and signal processing |
-| 2026-11-05 | [TinyML MCU lab: quantization, pruning, SRAM arena planning, MCU cost model](2026-11-05-tinyml-mcu-lab/) | Embedded and edge |
-| 2026-11-06 | [Systolic-array accelerator lab: OS/WS dataflows, tiling, energy model, int8 MLP](2026-11-06-systolic-array-lab/) | Computer architecture and digital design |
+| 2026-11-02 | [Adaptive conformal intervals](adaptive-conformal-intervals/) | AI / ML |
+| 2026-11-03 | [Channel coding lab: Viterbi vs LDPC](viterbi-vs-ldpc-channel-coding/) | Communications and control |
+| 2026-11-04 | [Audio denoising lab: spectral filters, adaptive cancellation, noisy classification](audio-denoising-adaptive-cancellation/) | Audio and signal processing |
+| 2026-11-05 | [TinyML MCU lab: quantization, pruning, SRAM arena planning, MCU cost model](tinyml-mcu-quantization-planner/) | Embedded and edge |
+| 2026-11-06 | [Systolic-array accelerator lab: OS/WS dataflows, tiling, energy model, int8 MLP](systolic-array-accelerator-simulator/) | Computer architecture and digital design |
 <!-- PROJECT_INDEX_END -->
 
 ## Conventions
 
-- Folder name: `YYYY-MM-DD-short-name/`
+- Folder name: a short descriptive kebab-case name (the date lives in the index table)
 - Every project has a README with what it does, how to run it, and what it showed
 - Only synthetic or openly licensed data; no API keys or secrets committed
