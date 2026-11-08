@@ -1,0 +1,20 @@
+name: lowlight-ci
+on:
+  push:
+    paths: ["lowlight-sensor-inference-lab/**"]
+  pull_request:
+    paths: ["lowlight-sensor-inference-lab/**"]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: lowlight-sensor-inference-lab
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -e ".[test]"
+      - run: python -m pytest
+      - run: python -m lowlight demo --photons 20 --digit 5

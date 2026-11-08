@@ -1,0 +1,148 @@
+{
+ "name": "default",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "image_size": 16,
+ "sensor": {
+  "read_noise": 2.0,
+  "dark_electrons": 1.0,
+  "adc_bits": 10,
+  "prnu": 0.01,
+  "headroom": 1.2
+ },
+ "photons": [
+  2,
+  5,
+  10,
+  20,
+  50,
+  100,
+  300,
+  1000
+ ],
+ "denoisers": [
+  "identity",
+  "box",
+  "gaussian",
+  "median",
+  "wiener",
+  "gat",
+  "ridge"
+ ],
+ "classifier": "softmax",
+ "n_noise_draws": 2,
+ "train_mode_ablation": {
+  "photons": [
+   5,
+   20,
+   100
+  ],
+  "denoisers": [
+   "identity",
+   "gaussian",
+   "gat",
+   "ridge"
+  ]
+ },
+ "gat_ablation": {
+  "photons": [
+   5,
+   20,
+   100
+  ]
+ },
+ "patch_ablation": {
+  "photons": [
+   5,
+   20,
+   100
+  ],
+  "sizes": [
+   3,
+   5,
+   7,
+   9
+  ]
+ },
+ "bits_sweep": {
+  "photons": [
+   20,
+   200
+  ],
+  "bits": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "denoisers": [
+   "identity",
+   "ridge"
+  ],
+  "seeds": [
+   0,
+   1,
+   2
+  ]
+ },
+ "read_noise_sweep": {
+  "photons": [
+   20,
+   200
+  ],
+  "values": [
+   0,
+   1,
+   2,
+   4,
+   8,
+   16
+  ],
+  "denoisers": [
+   "identity",
+   "ridge"
+  ],
+  "seeds": [
+   0,
+   1,
+   2
+  ]
+ },
+ "classifier_study": {
+  "photons": [
+   10,
+   50,
+   300
+  ],
+  "classifiers": [
+   "softmax",
+   "mlp",
+   "mlp_int8",
+   "mlp_int4"
+  ],
+  "denoiser": "ridge",
+  "seeds": [
+   0,
+   1,
+   2
+  ]
+ },
+ "failure": {
+  "photons": 5,
+  "top_k": 6
+ },
+ "profile": {
+  "photons": 20,
+  "n_images": 300
+ },
+ "deployment_photons": 20
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lowlight"
+version = "1.0.0"
+description = "Low-light sensor-to-inference lab: image-sensor noise physics, ISP denoisers and edge classification"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "scikit-learn>=1.3", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "scikit-image>=0.21"]
+
+[project.scripts]
+lowlight = "lowlight.cli:main"
+
+[tool.setuptools]
+packages = ["lowlight"]
+
+[tool.setuptools.package-data]
+lowlight = ["default_config.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

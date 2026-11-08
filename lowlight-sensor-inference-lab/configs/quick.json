@@ -1,0 +1,15 @@
+{
+  "name": "quick",
+  "seeds": [0, 1],
+  "photons": [5, 50],
+  "denoisers": ["identity", "gaussian", "wiener", "gat", "ridge"],
+  "train_mode_ablation": {"photons": [5], "denoisers": ["identity", "ridge"]},
+  "gat_ablation": {"photons": [5]},
+  "patch_ablation": {"photons": [5], "sizes": [3, 5]},
+  "bits_sweep": {"photons": [20], "bits": [3, 8], "denoisers": ["identity", "ridge"], "seeds": [0, 1]},
+  "read_noise_sweep": {"photons": [20], "values": [0, 8], "denoisers": ["identity", "ridge"], "seeds": [0, 1]},
+  "classifier_study": {"photons": [50], "classifiers": ["softmax", "mlp_int8"], "denoiser": "ridge", "seeds": [0]},
+  "failure": {"photons": 5, "top_k": 4},
+  "profile": {"photons": 20, "n_images": 60},
+  "deployment_photons": 20
+}

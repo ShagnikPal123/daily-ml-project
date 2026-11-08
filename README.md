@@ -14,6 +14,7 @@ A new small, working machine learning project every day. Each project lives in i
 | 2026-11-04 | [Audio denoising lab: spectral filters, adaptive cancellation, noisy classification](audio-denoising-adaptive-cancellation/) | Audio and signal processing |
 | 2026-11-05 | [TinyML MCU lab: quantization, pruning, SRAM arena planning, MCU cost model](tinyml-mcu-quantization-planner/) | Embedded and edge |
 | 2026-11-06 | [Systolic-array accelerator lab: OS/WS dataflows, tiling, energy model, int8 MLP](systolic-array-accelerator-simulator/) | Computer architecture and digital design |
+| 2026-11-07 | [★ Low-light sensor-to-inference lab: Poisson-Gaussian sensor, 7 ISP denoisers, int8 classifier, deployment budget](lowlight-sensor-inference-lab/) | Vision and sensing |
 <!-- PROJECT_INDEX_END -->
 
 ## Conventions
