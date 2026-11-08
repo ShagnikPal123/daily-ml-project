@@ -15,6 +15,7 @@ A new small, working machine learning project every day. Each project lives in i
 | 2026-11-05 | [TinyML MCU lab: quantization, pruning, SRAM arena planning, MCU cost model](tinyml-mcu-quantization-planner/) | Embedded and edge |
 | 2026-11-06 | [Systolic-array accelerator lab: OS/WS dataflows, tiling, energy model, int8 MLP](systolic-array-accelerator-simulator/) | Computer architecture and digital design |
 | 2026-11-07 | [★ Low-light sensor-to-inference lab: Poisson-Gaussian sensor, 7 ISP denoisers, int8 classifier, deployment budget](lowlight-sensor-inference-lab/) | Vision and sensing |
+| 2026-11-08 | [Regime detection lab: causal filters, Kalman, spectral features, HMM vs baselines](regime-detection-hmm-spectral-lab/) | Quant and time-series (signal processing) |
 <!-- PROJECT_INDEX_END -->
 
 ## Conventions
