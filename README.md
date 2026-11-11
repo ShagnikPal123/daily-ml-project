@@ -17,6 +17,7 @@ A new small, working machine learning project every day. Each project lives in i
 | 2026-11-07 | [★ Low-light sensor-to-inference lab: Poisson-Gaussian sensor, 7 ISP denoisers, int8 classifier, deployment budget](lowlight-sensor-inference-lab/) | Vision and sensing |
 | 2026-11-08 | [Regime detection lab: causal filters, Kalman, spectral features, HMM vs baselines](regime-detection-hmm-spectral-lab/) | Quant and time-series (signal processing) |
 | 2026-11-10 | [★ Datasheet spec-extraction and retrieval lab: unit-aware perceptron tagger, BM25/LSA hybrid, int8 index and model](datasheet-spec-extraction-rag-lab/) | NLP and LLM tooling (engineering) |
+| 2026-11-11 | [DC-motor control lab: PI, integer PI, LQI and LQG under encoder noise, delay and quantisation](dc-motor-control-lab/) | Communications and control |
 <!-- PROJECT_INDEX_END -->
 
 ## Conventions
