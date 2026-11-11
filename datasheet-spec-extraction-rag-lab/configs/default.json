@@ -1,0 +1,17 @@
+{
+  "seeds": [0, 1, 2, 3, 4],
+  "n_train": 24,
+  "n_test": 24,
+  "n_questions": 150,
+  "epochs": 4,
+  "train_noise": 0.02,
+  "noise_levels": [0.0, 0.01, 0.02, 0.04, 0.08],
+  "ablation_noise": 0.02,
+  "qa_noise_levels": [0.0, 0.02, 0.04, 0.08],
+  "lsa_k": 64,
+  "chunk_size": 4,
+  "topk": 5,
+  "lsa_k_sweep": [8, 16, 32, 64, 128],
+  "chunk_sizes": [2, 4, 8],
+  "bits": [32, 8, 4, 2]
+}
